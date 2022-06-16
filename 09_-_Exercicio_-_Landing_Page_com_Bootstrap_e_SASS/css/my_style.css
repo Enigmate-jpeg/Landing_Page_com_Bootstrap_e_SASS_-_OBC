@@ -1,0 +1,25 @@
+body {
+  background-image: url(../imagens/backgroundLp.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  color: #fff;
+}
+
+.container-sm {
+  background-color: #131212f1;
+}
+
+img {
+  width: 180px;
+}
+
+.btn-outline-danger:hover {
+  color: #fff;
+}
+
+@media (min-width: 425px) {
+  .container-sm {
+    width: 450px;
+  }
+}
